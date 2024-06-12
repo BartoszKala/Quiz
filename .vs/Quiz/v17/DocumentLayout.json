@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\quiz\\mvvn\\viewmodel\\resultview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|solutionrelative:quiz\\mvvn\\viewmodel\\resultview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\quiz\\mvvn\\viewmodel\\questionsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|solutionrelative:quiz\\mvvn\\viewmodel\\questionsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\quiz\\mvvn\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|solutionrelative:quiz\\mvvn\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|c:\\users\\lenovo\\desktop\\studia\\c#\\quiz\\quiz\\mvvn\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|solutionrelative:quiz\\mvvn\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\quiz\\commands\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|solutionrelative:quiz\\commands\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\quiz\\mvvn\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|solutionrelative:quiz\\mvvn\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\quiz\\mvvn\\viewmodel\\baseclasses\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|solutionrelative:quiz\\mvvn\\viewmodel\\baseclasses\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\quiz\\mvvn\\model\\repozytory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|solutionrelative:quiz\\mvvn\\model\\repozytory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\quiz\\mvvn\\viewmodel\\points.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|solutionrelative:quiz\\mvvn\\viewmodel\\points.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\quiz\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2678830-D770-4746-8E98-AA733B688B99}|Quiz\\Quiz.csproj|solutionrelative:quiz\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\ViewModel\\BaseClasses\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Quiz\\MVVN\\ViewModel\\BaseClasses\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\ViewModel\\BaseClasses\\RelayCommand.cs",
+              "RelativeToolTip": "Quiz\\MVVN\\ViewModel\\BaseClasses\\RelayCommand.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAADwv1gAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T17:23:14.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repozytory.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\Model\\Repozytory.cs",
+              "RelativeDocumentMoniker": "Quiz\\MVVN\\Model\\Repozytory.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\Model\\Repozytory.cs",
+              "RelativeToolTip": "Quiz\\MVVN\\Model\\Repozytory.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T17:13:45.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\Commands\\DBConnection.cs",
+              "RelativeDocumentMoniker": "Quiz\\Commands\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\Commands\\DBConnection.cs",
+              "RelativeToolTip": "Quiz\\Commands\\DBConnection.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T17:03:53.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Quiz\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\App.xaml.cs",
+              "RelativeToolTip": "Quiz\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T17:28:45.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Quiz\\MVVN\\View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Quiz\\MVVN\\View\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T17:26:54.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Points.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\ViewModel\\Points.cs",
+              "RelativeDocumentMoniker": "Quiz\\MVVN\\ViewModel\\Points.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\ViewModel\\Points.cs",
+              "RelativeToolTip": "Quiz\\MVVN\\ViewModel\\Points.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T15:27:18.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResultView.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\ViewModel\\ResultView.cs",
+              "RelativeDocumentMoniker": "Quiz\\MVVN\\ViewModel\\ResultView.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\ViewModel\\ResultView.cs",
+              "RelativeToolTip": "Quiz\\MVVN\\ViewModel\\ResultView.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T22:45:38.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Quiz\\MVVN\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "Quiz\\MVVN\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwJcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T08:12:40.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuestionsView.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\ViewModel\\QuestionsView.cs",
+              "RelativeDocumentMoniker": "Quiz\\MVVN\\ViewModel\\QuestionsView.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\ViewModel\\QuestionsView.cs",
+              "RelativeToolTip": "Quiz\\MVVN\\ViewModel\\QuestionsView.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAmwEIBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T08:10:31.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Quiz\\MVVN\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\studia\\c#\\Quiz\\Quiz\\MVVN\\View\\MainWindow.xaml",
+              "RelativeToolTip": "Quiz\\MVVN\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-03T16:17:28.805Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

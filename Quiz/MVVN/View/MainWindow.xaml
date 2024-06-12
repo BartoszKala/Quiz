@@ -1,0 +1,360 @@
+﻿<Window x:Class="Quiz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:Quiz.MVVN.ViewModel"
+        xmlns:local="clr-namespace:Quiz"
+        xmlns:base="clr-namespace:Quiz.MVVN.ViewModel.BaseClasses"
+        mc:Ignorable="d"
+        Title="Quiz" Height="600" Width="1000"
+        ResizeMode="CanResize"
+        Icon="C:\Users\lenovo\Desktop\studia\c#\Quiz\Quiz\ikona.ico">
+
+    <!--<Window.DataContext>
+        <vm:MainViewModel />
+    </Window.DataContext>-->
+
+    <Window.Resources>
+        <Style x:Key="RibbonToggleButtonStyle" TargetType="RibbonToggleButton">
+            <Setter Property="Background" Value="#FF7B6262"/>
+            <Setter Property="BorderBrush" Value="#FF7B6262"/>
+            <Setter Property="Foreground" Value="#FFEBC2C2"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RibbonToggleButton">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" CornerRadius="25" Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FFAFA5A5"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FFAFA5A5"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FF4C4040"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#FF17A682"/>
+            <Setter Property="BorderBrush" Value="#FF17A682"/>
+            <Setter Property="Foreground" Value="#FF03533F"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" CornerRadius="15" Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FF81F1D5"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FF81F1D5"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+
+        <base:BooleanToVisibilityConverter x:Key="BoolToVisConverter"/>
+        <base:InvertedBooleanToVisibilityConverter x:Key="InvBoolToVisConverter"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.Resources>
+            <base:BooleanToVisibilityConverter x:Key="BoolToVisConverter"/>
+            <base:InvertedBooleanToVisibilityConverter x:Key="InvBoolToVisConverter"/>
+        </Grid.Resources>
+
+        <!-- #region Widok1: Start -->
+        <!--
+        <Grid x:Name="Start" Opacity="0.85" Background="Black" 
+              
+              
+              Visibility="{Binding IsStartViewVisible, Converter={StaticResource BoolToVisConverter}}">
+            
+            
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200*"/>
+                <RowDefinition Height="127*"/>
+                <RowDefinition Height="200*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="270*"/>
+                <ColumnDefinition Width="293*"/>
+                <ColumnDefinition Width="270*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Content="Rozpocznij Quiz" Visibility="{Binding IsStartViewVisible, Converter={StaticResource BoolToVisConverter}}"
+ Grid.Row="1" Grid.Column="1" FontFamily="Caladea" FontSize="35" FontWeight="Bold" Margin="-3,0,0,0" Opacity="0.85"  BorderBrush="Black" Foreground="#FFEBC2C2" Background="Black">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" CornerRadius="15" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FF333333"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FF555555"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Template>
+                <Button.OpacityMask>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.OpacityMask>
+            </Button>
+        </Grid>
+        -->
+        <!-- #endregion -->
+
+        <!-- #region Widok2: Quiz -->
+        <Grid x:Name="QuizView" Opacity="0.85" Background="Black" Visibility="{Binding ShowQuestionsView, Converter={StaticResource BoolToVisConverter}}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="75*"/>
+                <ColumnDefinition Width="400*"/>
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="400*"/>
+                <ColumnDefinition Width="75*"/>
+
+
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions >
+                <RowDefinition Height="35*"/>
+                <RowDefinition Height="152*"/>
+                <RowDefinition Height="132*"/>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="132*"/>
+                <RowDefinition Height="107*"/>
+            </Grid.RowDefinitions>
+
+
+            <Viewbox Grid.ColumnSpan="4" Margin="72,0,5,0" Height="149" VerticalAlignment="Center" Grid.Row="1">
+                <TextBox Name="questionView" 
+             Text="{Binding QView.QText}"
+             FontSize="15" Opacity="0.85" BorderBrush="Black" Foreground="#FFEBC2C2" Background="Black" IsReadOnly="True"
+             HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+             Focusable="False" IsHitTestVisible="False" Width="397" Height="53"
+             TextWrapping="Wrap"/>
+            </Viewbox>
+
+
+            <StackPanel Grid.Row="0" Grid.Column="3" Margin="0,30,20,100" Grid.RowSpan="2" Grid.ColumnSpan="2">
+                <TextBlock
+        Name="QuizTimer"
+        HorizontalAlignment="Right"
+        FontSize="24"
+        Text="{Binding QView.Time}"
+        Height="37"
+        Width="58"
+        Foreground="#FFEBC2C2"
+        Margin="0"
+        TextWrapping="Wrap"
+        Focusable="False"
+        IsHitTestVisible="False"/>
+
+
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Grid.ColumnSpan="2" Margin="72,0,0,2">
+                <Border Background="#FF7B6262" CornerRadius="25" Padding="5" Height="120" >
+                    <RibbonToggleButton
+            Name="a"
+            Foreground="#FFEBC2C2"
+            Content="{Binding QView.A}"
+            FontSize="20"            
+                        
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderThickness="0"
+                        
+            Style="{StaticResource RibbonToggleButtonStyle}"
+            IsChecked="{Binding QView.AIsClicked, Mode=TwoWay}"/>
+                </Border>
+            </StackPanel>
+
+
+
+            <StackPanel Grid.Row="5" Grid.ColumnSpan="2" Margin="72,1,0,24" Grid.RowSpan="2">
+                <Border Background="#FF7B6262" CornerRadius="25" Padding="5" Height="120">
+                    <RibbonToggleButton
+             Name="c"
+             Foreground="#FFEBC2C2"
+             Content="{Binding QView.C}"
+             FontSize="20"
+                        
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            VerticalContentAlignment="Center"
+            BorderThickness="0"
+                        
+             Style="{StaticResource RibbonToggleButtonStyle}"
+             IsChecked="{Binding QView.CIsClicked, Mode=TwoWay}"/>
+                </Border>
+            </StackPanel>
+
+
+            <StackPanel Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2" Margin="0,0,72,2">
+                <Border Background="#FF7B6262" CornerRadius="25" Padding="5" Height="120">
+                    <RibbonToggleButton
+            Name="b"
+            Foreground="#FFEBC2C2"
+            Content="{Binding QView.B}"
+            FontSize="20"
+                        
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            VerticalContentAlignment="Center"
+            BorderThickness="0"
+                        
+            IsChecked="{Binding QView.BIsClicked, Mode=TwoWay}"
+            Style="{StaticResource RibbonToggleButtonStyle}"/>
+
+                </Border>
+            </StackPanel>
+
+            <StackPanel Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="2" Margin="0,1,72,24" Grid.RowSpan="2">
+                <Border Background="#FF7B6262" CornerRadius="25" Padding="5" Height="120">
+                    <RibbonToggleButton
+            Name="AnswerDView"
+            Foreground="#FFEBC2C2"
+            Content="{Binding QView.D}"
+            FontSize="20"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            VerticalContentAlignment="Center"
+            IsChecked="{Binding QView.DIsClicked, Mode=TwoWay}"
+            Style="{StaticResource RibbonToggleButtonStyle}"
+            BorderThickness="0"/>
+                </Border>
+            </StackPanel>
+
+            <StackPanel Grid.Row="6" Grid.Column="1" Margin="160,10,0,0">
+                <Border Background="#FF17A682" CornerRadius="20" Padding="5">
+                    <Button
+            Name="ConfirmView"
+            Command="{Binding QView.NextQuestion}"
+            IsEnabled="{Binding QView.NextQuestionEnable}"
+            Foreground="#FF03533F"
+            Content="Potwierdź"
+            FontSize="20"
+            Style="{StaticResource ButtonStyle}"
+                        
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="0"
+                        
+                        
+            Background="#FF17A682"
+            />
+                </Border>
+            </StackPanel>
+
+            <StackPanel Grid.Row="6" Grid.Column="3" Margin="0,10,160,0">
+                <Border Background="#FF17A682" CornerRadius="20" Padding="5">
+                    <Button
+            Name="FinishView"
+            Command="{Binding QView.FinishQuizCommand}"
+            Content="Zakończ"
+            FontSize="20"
+                
+            Style="{StaticResource ButtonStyle}"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="0"
+                        
+            Background="#FF17A682"
+            Foreground="#FF03533F"/>
+                </Border>
+            </StackPanel>
+
+        </Grid>
+        <!-- #endregion -->
+
+        <!-- #region Widok3: Wynik-->
+        <Grid x:Name="ScoreView" Opacity="0.85" Background="Black" Visibility="{Binding ShowQuestionsView, Converter={StaticResource InvBoolToVisConverter}}"
+>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="103*"/>
+                <RowDefinition Height="89*"/>
+                <RowDefinition Height="90*"/>
+                <RowDefinition Height="302*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="150*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox VerticalAlignment="Top"
+             Name="ScoreView2" Text="{Binding T}" FontSize="25" Opacity="0.85" 
+             BorderBrush="Black" Foreground="#FFEBC2C2" Background="Black" 
+             IsReadOnly="True" HorizontalContentAlignment="Center" 
+             VerticalContentAlignment="Center" Focusable="False" 
+             IsHitTestVisible="False" TextWrapping="WrapWithOverflow" Height="227"  Grid.RowSpan="3" Margin="0,10,0,0" Grid.Column="1"/>
+
+
+            <StackPanel Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" Margin="0,89,0,0">
+                <Border Background="#FF17A682" CornerRadius="20" Padding="5">
+                    <Button
+            Name="New_quizView"
+            Foreground="#FF03533F"
+            Command="{Binding OpenFileCommand}"
+            Style="{StaticResource ButtonStyle}"
+            VerticalAlignment="Center"
+                       
+            HorizontalAlignment="Stretch"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="0"
+                        
+            Content="Rozpocznij Quiz"
+            FontSize="20"
+            Background="#FF17A682"/>
+                </Border>
+            </StackPanel>
+
+
+
+
+        </Grid>
+        <!-- #endregion -->
+
+    </Grid>
+</Window>
